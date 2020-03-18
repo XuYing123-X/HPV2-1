@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5; maximum-scale=0.5, user-scalable=no"/>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			
+			html{
+				width:100%;
+				height: 100vh;
+			
+				}
+				
+			body{
+				width: 100%;
+				height: 100%;
+					
+				}
+			.box{
+				width: 100%;
+				height:100% ;
+			}	
+			.box1{
+				width:100vw ;
+				height: 28%;
+			}
+			.banner{
+				width: 100%;
+				height: 100%;
+			}
+			
+			.box2{
+				background-color: #EFECF0;
+				width:100vw ;
+				height: 72%;
+			}
+			.hpv_order{
+				margin-left: 4rem;    /* 64px*/
+				color: #4E881A;
+				font: bold 40px SourceHanSansCN-Bold;
+				margin-bottom: 2.6875rem;
+			}
+			.wenben{
+				margin-left: 4rem;
+				color: #2E2E2E;
+				font: bold 28px SourceHanSansCN-Regular;
+				margin-bottom: 4rem;
+			}
+			.userID{
+				width: 32.96875rem;    /* 527.5px */
+				height: 4%;    /* 49px */
+				margin-left: 4rem;
+				border: 0.125rem solid #B1D392;
+				border-radius: 10px;
+				background-color: #ECEEEE;
+				margin-bottom: 31.375rem;
+				
+			}
+			.btn_div{
+		       text-align: center;
+				position: fixed;
+				left: 17rem;
+				bottom: 4.90625rem;
+				
+			}
+			.btn{
+				width: 13.46875rem;
+				height: 3.59375rem;
+				color: #FEFEFE;
+				font: bold 28px SourceHanSansCN-Bold;
+				background-color: #AFCE11;
+				border:0.1875rem solid  #FFFFFF;
+				border-radius: 10px;
+				/* margin: auto;
+				 */
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box1">
+				<img class="banner" src="../img/page1.png">
+			</div>
+			<div class="box2">
+					<div class="hpv_order">预约接种日期，信息核对</div>
+					<div class="wenben">请输入您之前登记过的身份证号</div>
+					<input  class="userID"  type="text" name="userID" id="userID"  />
+					<div class="btn_div">
+						<button class="btn" onclick="location = 'work2-2.html'">下一步
+							<!-- <a href="">下一步</a> -->
+						</button>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
